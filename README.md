@@ -1,4 +1,4 @@
-# node-project-template
+# node-typescript-starter
 
 This is my simple baseline template for starting nodejs TypeScript projects. It includes:
 
@@ -7,22 +7,21 @@ This is my simple baseline template for starting nodejs TypeScript projects. It 
   * Typings
 * Debuggable Mocha
 * Test Coverage Reports
+* TSLint and Prettier
 
 ## Installation
 
 ```text
 
-git clone https://github.com/crazygravy89/node-project-template.git
+git clone https://github.com/crazygravy89/node-typescript-starter.git <Your project name>
 
-cd ./node-project-template
+cd ./<Your project name>
 
 npm i
 
 ```
 
 Change the `package.json` to your settings
-
-Rename `./node-project-template` to your project name.
 
 You're good to go.
 
@@ -35,6 +34,7 @@ npm run coverage - Runs all mocha tests with istanbul lcov coverage report in ./
 npm run test-debug - Runs all mocha tests in debug mode. Helpful for attaching the chrome tools profiler
 npm run build - Builds Typescript source into Javascript and typings within a /lib file
 npm run watch - Builds Typescript into Javascript on source code change within a /lib file
+npm run start - Executes the generated javascript
 
 ```
 
