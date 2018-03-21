@@ -10,7 +10,11 @@
 		"quotemark": [true, "single"],
 		"whitespace": false,
 		"no-empty-interface": false,
-		"no-var-requires": false
+		"no-var-requires": false,
+		"variable-name": false,
+		"only-arrow-functions": false,
+		"semicolon": true,
+		"trailing-comma": true
 	},
 	"rulesDirectory": []
 }
